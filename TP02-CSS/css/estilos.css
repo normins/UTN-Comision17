@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedorGeneral{
+    margin: 10px 30px 10px 40px;
+    border: 2px solid black;
+    padding: 20px 10px 20px 10px;
+}
+
+.cabecera{
+    text-align: center;
+}
+
+.cuerpo{
+    padding: 30px 10px 10px 10px;
+    color: silver;
+    background-color: rgb(70, 65, 65);
+}
+/* .cuerpo{
+    margin: 15px 15px 0px 15px;
+    padding: 30px 10px 10px 10px;
+    color: silver;
+    background-color: dimgrey;
+} */
+
+.cuerpo p{
+    padding-bottom: 20px;
+}
+
+.pie p{
+    text-align: end;    
+}
+.pie img{
+    width: 100%;
+}
