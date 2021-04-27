@@ -1,0 +1,39 @@
+
+/* Reseteamos la fuente */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Reseteamos márgenes y padding */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Maqueta HTML */
+#contenedor{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 2px solid grey;
+    padding: 15px; 
+}
+
+.header{
+    text-align: center;
+}
+
+.contenido{
+    background-color: rgb(122, 122, 122);
+    color: white;
+    padding: 15px;   
+}
+
+.footer{
+    text-align: right;    
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../img/banner1.jpg);
+    height: 90px;
+}
