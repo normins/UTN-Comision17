@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Maqueta HTML */
+
+#contenedor{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 2px solid black;                   */
+}
+
+header{
+    color: white;
+    background: rgb(13, 89, 231);
+    padding: px;
+    padding-left: 20px;
+    box-sizing: border-box                                      ;
+    /* no hizo falta el heigth */
+}
+
+    .logo{
+        text-transform: uppercase;
+    }
+
+.navbar{
+    background: rgb(13,13,105);
+    text-align: right;
+    padding: 10px;
+}
+    /* Selectores anidados */
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+ /* Box-model Modelo de cajas */
+ /* Una caja se dimensiona según el contenido-contentbox +relleno-padding+borde+margen */
+    /* CSS3 
+    box-sizing: el ancho real se puede concebir desde el contenido o desde el borde, por default: contenido;*/
+
+.principal{
+    background: rgb(71,71,71);
+    width: 80%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+    .destacado{
+        background: white;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .simple{
+        background: white;
+        padding: 10px;
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .simple figure{
+        margin: 0;
+    }
+
+    .simple figure img{
+        width: 100%;
+    }
+
+.sidebar{
+    background: grey;
+    width: 20%;
+    height: 300px;
+    float: right;
+    box-sizing: border-box;
+}
+
+/* float --> flotar a izq o derecha
+clear: cancela el float para que no siga incidiendo en los elementos posteriores */
+
+.limpiarFloat {
+    clear: both;
+}
+
+.footer{
+    background: rgb(65, 153, 225);
+    padding: 10px;
+    text-align: center;
+}
+
+.nota{
+    background: white;
+    padding: 10px;
+    width: 80%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.nota figure{
+    margin: 0;
+}
+
+.nota figure img{
+    width: 100%;
+}
